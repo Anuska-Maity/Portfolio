@@ -15,7 +15,7 @@
       var(--primary-color)
     );
   }
-
+/*========== header ==========*/
 * {
   padding: 0;
   margin: 0;
@@ -176,4 +176,37 @@ nav {
 .nav__menu__btn {
   font-size: 1.5rem;
   cursor: pointer;
+}
+/* =========== home ======== */
+.header__container {
+  padding-top: 10rem;
+  display: grid;
+  gap: 4rem;
+}
+
+.header__image img {
+  max-width: 400px;
+  margin: auto;
+}
+
+.header__content {
+  text-align: center;
+}
+
+.header__content h4 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.header__content h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+
+.header__content p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
 }
